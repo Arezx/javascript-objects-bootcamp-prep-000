@@ -10,3 +10,9 @@ function updatePlaylist(aplaylist, artistName, songTitle) {
 
 updatePlaylist(playlist, "artist4", "song4");
 
+function removeFromePlaylist(aplaylist, artistName) {
+  delete aplaylist[artistName];
+  return aplaylist;
+}
+
+removeFromePlaylist(playlist, "artist2");
