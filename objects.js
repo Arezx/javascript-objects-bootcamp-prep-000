@@ -10,7 +10,7 @@ function updatePlaylist(xPlaylist, artistName, songTitle) {
 
 updatePlaylist(playlist, "artist4", "song4");
 
-function removeFromPlaylist(thePlaylist, artistName) {
+function removeFromPlaylist(xPlaylist, artistName) {
   delete thePlaylist[artistName];
   return thePlaylist;
 }
