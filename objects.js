@@ -11,8 +11,8 @@ function updatePlaylist(xPlaylist, artistName, songTitle) {
 updatePlaylist(playlist, "artist4", "song4");
 
 function removeFromPlaylist(xPlaylist, artistName) {
-  delete thePlaylist[artistName];
-  return thePlaylist;
+  delete xPlaylist[artistName];
+  return xPlaylist;
 }
 
 removeFromPlaylist(playlist, "artist2");
